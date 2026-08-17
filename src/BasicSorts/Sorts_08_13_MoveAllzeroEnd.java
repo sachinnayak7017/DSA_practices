@@ -17,12 +17,13 @@ public class Sorts_08_13_MoveAllzeroEnd {
 //                if (arr[j - 1] < arr[j]) {
                 if (0 == arr[j-1]) {
                     int temp = arr[j-1];
+                    arr[j-1]=arr[j];
                     arr[j] = temp;
                     flag = true;
                 }
             }
-            if (!flag) {
-                return;
-            }
+                if (!flag) {
+                    return;
+                }
         }}
 }
