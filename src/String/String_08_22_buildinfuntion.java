@@ -7,13 +7,13 @@ public class String_08_22_buildinfuntion {
 
         Scanner sc   = new Scanner(System.in);
         String s = "Sachin";
-        String s1 = "Nayak";
+        String s1 = "Sachin";
 
 //        System.out.println(s.toLowerCase());
 //        System.out.println(s.toUpperCase());
 //        System.out.println(s.lastIndexOf('a'));
 //        System.out.println(s.indexOf('N'));
-//        System.out.println(s.compareTo(s1));
+        System.out.println(s.compareTo(s1));
 //        System.out.println(s.concat(s1));
          int n = sc.nextInt();
          String s2 = Integer.toString(n);

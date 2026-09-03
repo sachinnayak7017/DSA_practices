@@ -6,7 +6,7 @@ public class String_09_001_SubStringOfString {
     static void main() {
         String a = "abc";
         String s = "Jaishanker";
-        String s1 = "12345";
+        String s1 = "123";
         System.out.println(s.substring(0,2));
 //        for(int i =0; i< s.length();i++){
 //            for(int j =i; j<s.length();j++){
@@ -24,7 +24,7 @@ public class String_09_001_SubStringOfString {
                 String s1 = s.substring(i,j);
                 int a = Integer.parseInt(s1);
                 System.out.println(a);
-               // sum = sum + a;
+                sum = sum + a;
             }
 
         }
