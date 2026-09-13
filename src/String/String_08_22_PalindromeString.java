@@ -4,10 +4,10 @@ public class String_08_22_PalindromeString {
 
         static void main() {
             String s1 = "asdfgfdsa";
-            System.out.println(revese(s1));
+            System.out.println(palindromeString(s1));
         }
 
-        static boolean revese(String s){
+        static boolean palindromeString(String s){
             // code here
             int i =0; int j = s.length()-1;
             while(i<j) {
